@@ -100,5 +100,22 @@
     opacity: 0.8;
 }
 
+/* about us */
+#about-us * {
+    font-family: Roboto, serif;
+}
+
+#about-us h1 {
+    font-size: 38px;
+    text-align: center;
+    color: #042e9c;
+    padding-top: 14px;
+}
+
+#about-us hr {
+    width: 106px;
+    margin: auto;
+}
+
 
 
