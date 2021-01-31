@@ -69,23 +69,24 @@
 
 #img-1 img {
     object-fit: fill;
-    opacity: 0.6;
+    opacity: 0.5;
 }
 
 #img .carousel-caption {
     top: -200px !important;
+    font: Lato, serif;
 }
 
 #img-2 {
     /* height: 535px; */
     width: 100%;
-    background: #000000;
+    background: #1b0d03;
     overflow: hidden;
 }
 
 #img-2 img {
     object-fit: fill;
-    opacity: 0.7;
+    opacity: 0.5;
 }
 
 #img-3 {
@@ -112,10 +113,29 @@
     padding-top: 14px;
 }
 
-#about-us hr {
+#about-us hr, #services hr {
     width: 106px;
     margin: auto;
+    border: 2px solid #ff6d00;
+    margin-bottom: 30px;
+    color: #ff6d00;
+    position: relative;
+    animation-name: example;
+    animation-timing-function: ease-in-out;
+    animation-duration: 2s;
 }
+
+@keyframes example {
+    from {width: 20px;}
+    to {width: 106px;}
+}
+
+#about-us img {
+    height: 400px;
+    max-width: 550px;
+}
+
+
 
 
 
