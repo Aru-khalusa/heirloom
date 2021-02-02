@@ -113,8 +113,16 @@ body * {
     /* background-image: url('..//'); */
 }
 
-#about-us .container {
-    max-height: fit-content;
+@media screen and (max-width: 1000px) {
+    #about-us .container {
+        height: 1200px;
+    }
+
+    #about-us p {
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+    }
 }
 
 #about-us h1, #services h1, #portfolio h1 {
@@ -163,4 +171,30 @@ body * {
     padding: 20px 0px 20px 20px;
 }
 
+/* Services */
+
+#services {
+    margin-left: 24px;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+#services .card {
+    margin-top: 20px;
+    box-shadow: 2px 2px #00000080;
+    text-align: center;
+    color: #000000;
+    font-weight: bold;
+}
+
+#services .card:hover {
+    transform: scale(1.02);
+    color: #ff6d00;
+    text-decoration: dashed;
+    
+}
+
+#services img {
+    height: 300px;
+}
 
