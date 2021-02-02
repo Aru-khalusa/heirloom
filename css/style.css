@@ -1,3 +1,5 @@
+/* @import() */
+
 .logo {
     width: 150px;
     height: 75px;
@@ -90,8 +92,7 @@
 }
 
 #img-3 {
-    /* height: 535px; */
-    /* width: 100%; */
+    width: 100%;
     background: #000000;
     overflow: hidden;
 }
@@ -102,8 +103,13 @@
 }
 
 /* about us */
-#about-us * {
+#about-us {
     font-family: Roboto, serif;
+    background-color: rgba(245, 105, 245, 0.17);
+}
+
+#about-us .container {
+    max-height: fit-content;
 }
 
 #about-us h1 {
@@ -111,14 +117,16 @@
     text-align: center;
     color: #042e9c;
     padding-top: 14px;
+    font-weight: 500;
+    font-family: Roboto;
 }
 
-#about-us hr, #services hr {
+#about-us hr, #services hr, #portfolio hr {
     width: 106px;
     margin: auto;
-    border: 2px solid #ff6d00;
+    border: 2px solid #020201;
     margin-bottom: 30px;
-    color: #ff6d00;
+    color: #020201;
     position: relative;
     animation-name: example;
     animation-timing-function: ease-in-out;
@@ -131,8 +139,15 @@
 }
 
 #about-us img {
-    height: 400px;
+    height: 500px;
     max-width: 550px;
+    border-radius: 50%;
+}
+
+#about-us p {
+    font-size: 1.4em;
+    font-family: Roboto, helvetica, sans-serif;
+    padding: 20px 0px 20px 20px;
 }
 
 
