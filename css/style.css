@@ -181,7 +181,6 @@ body * {
 
 #services .card {
     margin-top: 20px;
-    box-shadow: 2px 2px #00000080;
     text-align: center;
     color: #000000;
     font-weight: bold;
@@ -191,7 +190,7 @@ body * {
     transform: scale(1.02);
     color: #ff6d00;
     text-decoration: dashed;
-    
+    box-shadow: 2px 2px #00000080;
 }
 
 #services img {
