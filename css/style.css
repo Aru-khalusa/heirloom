@@ -159,53 +159,6 @@ body * {
     padding: 20px 0px 20px 20px;
 }
 
-@media screen and (max-width: 1000px) {
-    body {
-        width: 100%;
-        font-family: Arial, Helvetica, sans-serif;
-    }
-
-    #about-us .container {
-        height: 1200px;
-    }
-
-    #about-us p {
-        text-align: center;
-        font-family: Arial, Helvetica, sans-serif;
-        font-weight: bold;
-    }
-
-    #heirloom img {
-        max-width: 300px;
-    }
-
-    #contact {
-        height:700px !important;
-        background-color: #000a24 !important;
-    }
-
-    #title {
-        font-style: oblique;
-        text-decoration: underline;
-        font-size: 20px;
-        color: #ff6f00;
-    }
-
-    #text {
-        text-align: center;
-    }
-
-    #map {
-        width: 90% !important;
-        margin-left: 5%;
-    }
-
-    #footer {
-        padding-top: 20px;
-        color: #ff6d00;
-    }
-}
-
 /* Services */
 
 #services {
@@ -255,13 +208,85 @@ body * {
 /* Contact Us */
 
 #contact {
-    background-color: #141414;
+    background-color: #020c1b;
     color: #ffffff;
-    height: 500px;
+    height: 450px;
     width: 100% !important;
+    margin-top: -250px;
 }
 
 #title {
     text-transform: capitalize;
 }
 
+#text {
+    padding-left: 40px;
+    font-size: larger;
+}
+
+#text strong {
+    color: rgb(255, 199, 153);
+    text-decoration: underline;
+    text-decoration-color: #ffffff;
+}
+
+#map {
+    padding-top: 40px;
+    width: 95%;
+    margin-left: 20px;
+}
+
+#footer {
+    color: #ff6f00;
+}
+
+
+
+/* Media Screen */
+
+@media screen and (max-width: 1000px) {
+    body {
+        width: 100%;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    #about-us .container {
+        height: 1200px;
+    }
+
+    #about-us p {
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+    }
+
+    #heirloom img {
+        max-width: 300px;
+    }
+
+    #contact {
+        height:700px !important;
+        background-color: #000a24 !important;
+    }
+
+    #title {
+        font-style: oblique;
+        text-decoration: underline;
+        font-size: 20px;
+        color: #ff6f00;
+    }
+
+    #text {
+        text-align: center;
+    }
+
+    #map {
+        width: 90% !important;
+        margin-left: 5%;
+    }
+
+    #footer {
+        padding-top: 20px;
+        color: #ff6d00;
+    }
+}
