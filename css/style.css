@@ -240,6 +240,14 @@ body * {
     color: #ff6f00;
 }
 
+#indicator {
+    float: right !important;
+    color: #ffffff;
+    background-color: #ff6d00;
+    font-size: small;
+    width: 36px;
+    text-align: right;
+}
 
 
 /* Media Screen */
@@ -267,6 +275,7 @@ body * {
     #contact {
         height:700px !important;
         background-color: #000a24 !important;
+        margin-bottom: none;
     }
 
     #title {
